@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hobby_matching_app/view/page/home_himabito.dart';
 
 void main() {
   runApp(
@@ -9,9 +10,9 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Hobby Matching',
-      home: null,
+      home: HomePage(),
     );
   }
 }
