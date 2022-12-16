@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hobby_matching_app/view/page/home_himabito.dart';
+
+import 'view/template/home_matching_template.dart';
 
 void main() {
   runApp(
@@ -7,12 +8,14 @@ void main() {
   );
 }
 
+//TODO color seedを設定する
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Hobby Matching',
-      home: HomePage(),
+      home: HomeMatchingTemplate(),
     );
   }
 }

@@ -14,9 +14,8 @@ class AppBottomNavigationBar extends StatelessWidget {
           backgroundColor: Colors.blue,
         ),
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.search,
-          ),
+          icon: Icon(Icons.workspaces_outline),
+          activeIcon: Icon(Icons.workspaces),
           label: '',
           backgroundColor: Colors.green,
         ),
@@ -27,8 +26,8 @@ class AppBottomNavigationBar extends StatelessWidget {
           backgroundColor: Colors.purple,
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.mail_outline),
-          activeIcon: Icon(Icons.mail),
+          icon: Icon(Icons.chat_outlined),
+          activeIcon: Icon(Icons.chat),
           label: '',
           backgroundColor: Colors.pink,
         ),

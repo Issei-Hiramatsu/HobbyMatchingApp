@@ -31,7 +31,6 @@ class TweetCard extends StatelessWidget {
             children: [
               Text(userName),
               Text(message),
-              BottomTweetBar(),
             ],
           ),
         ),
